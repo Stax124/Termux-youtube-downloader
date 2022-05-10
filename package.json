@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "build": "tsc && pkg -t node17-linux-x64 -o dist/termux-url-opener build/index.js",
+    "transpile": "tsc"
   },
   "author": "",
   "license": "ISC",

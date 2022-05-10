@@ -1,0 +1,23 @@
+{
+  "name": "termux-yt-dlp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "command-exists": "^1.2.9",
+    "execa": "^6.1.0",
+    "prompts": "^2.4.2",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/prompts": "^2.0.14"
+  }
+}
